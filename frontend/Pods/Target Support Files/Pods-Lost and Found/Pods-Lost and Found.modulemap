@@ -1,0 +1,6 @@
+framework module Pods_Lost_and_Found {
+  umbrella header "Pods-Lost and Found-umbrella.h"
+
+  export *
+  module * { export * }
+}

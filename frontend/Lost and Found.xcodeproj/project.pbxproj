@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252EE8A5275AA2AA00F6454B /* Image-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8A4275AA2AA00F6454B /* Image-2.jpg */; };
+		252EE8A7275AA7EE00F6454B /* 7741638559531_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8A6275AA7EE00F6454B /* 7741638559531_.pic.jpg */; };
+		252EE8A9275AA83D00F6454B /* 7641638559440_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8A8275AA83D00F6454B /* 7641638559440_.pic.jpg */; };
+		252EE8AB275AB72D00F6454B /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8AA275AB72D00F6454B /* backbutton.png */; };
+		252EE8AD275AB74600F6454B /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8AC275AB74600F6454B /* usericon.png */; };
+		252EE8B1275ACA7F00F6454B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8B0275ACA7F00F6454B /* Assets.xcassets */; };
+		252EE8CC275B36D100F6454B /* trash_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8CB275B36D100F6454B /* trash_full.png */; };
+		252EE8CE275B373D00F6454B /* Image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8CD275B373D00F6454B /* Image-1.jpg */; };
+		252EE8D0275B374800F6454B /* logo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8CF275B374800F6454B /* logo1.jpg */; };
+		252EE8D2275B375000F6454B /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 252EE8D1275B375000F6454B /* login.png */; };
+		2550872A2755A05C0088E291 /* LostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255087292755A05C0088E291 /* LostViewController.swift */; };
+		2550872C2755A2240088E291 /* LostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550872B2755A2240088E291 /* LostTableViewCell.swift */; };
+		2550872E2755A3320088E291 /* LostDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550872D2755A3320088E291 /* LostDescViewController.swift */; };
+		2550873C2755CDB10088E291 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550873B2755CDB10088E291 /* NetworkManager.swift */; };
+		2550873E2755F8A90088E291 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550873D2755F8A90088E291 /* RegisterController.swift */; };
+		255087402755F9B00088E291 /* User1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550873F2755F9B00088E291 /* User1.swift */; };
+		255087442756CAC40088E291 /* PostFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255087432756CAC40088E291 /* PostFoundViewController.swift */; };
+		255087462756EE0A0088E291 /* TheMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255087452756EE0A0088E291 /* TheMainViewController.swift */; };
+		255087482756F4640088E291 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255087472756F4640088E291 /* UserViewController.swift */; };
+		2550874C2757DF580088E291 /* MenuTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550874B2757DF580088E291 /* MenuTabView.swift */; };
+		2550874E2757E0130088E291 /* MenuTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550874D2757E0130088E291 /* MenuTabCell.swift */; };
+		25508756275819CB0088E291 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25508755275819CB0088E291 /* PageVC.swift */; };
+		2550875A275825290088E291 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25508759275825290088E291 /* ContentController.swift */; };
+		2550875C275828570088E291 /* UserItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550875B275828570088E291 /* UserItemCell.swift */; };
+		2550876527588D930088E291 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550876427588D930088E291 /* QuestionViewController.swift */; };
+		2550876827589D6D0088E291 /* try1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2550876727589D6D0088E291 /* try1.png */; };
+		258D91732748D1D200764419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D91722748D1D200764419 /* AppDelegate.swift */; };
+		258D91752748D1D200764419 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D91742748D1D200764419 /* SceneDelegate.swift */; };
+		258D91772748D1D200764419 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D91762748D1D200764419 /* MainViewController.swift */; };
+		258D917A2748D1D200764419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D91782748D1D200764419 /* Main.storyboard */; };
+		258D917F2748D1D300764419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D917D2748D1D300764419 /* LaunchScreen.storyboard */; };
+		258D91892748E00400764419 /* FoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D91882748E00400764419 /* FoundViewController.swift */; };
+		258D918B274A2BA300764419 /* FoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D918A274A2BA300764419 /* FoundTableViewCell.swift */; };
+		258D918D274A2BC500764419 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D918C274A2BC500764419 /* Item.swift */; };
+		258D918F274A2BF400764419 /* PostLostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D918E274A2BF400764419 /* PostLostViewController.swift */; };
+		258D9191274A3A8200764419 /* FoundDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D9190274A3A8200764419 /* FoundDescViewController.swift */; };
+		258D9195274B1C7300764419 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 258D9194274B1C7300764419 /* font */; };
+		258D9199274B37FA00764419 /* FoundHalfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D9198274B37FA00764419 /* FoundHalfView.swift */; };
+		3AC6408F383F01AC0EE52FBA /* Pods_Lost_and_Found.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9F26B5B84F618BBEBC546D /* Pods_Lost_and_Found.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		252EE8A4275AA2AA00F6454B /* Image-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image-2.jpg"; sourceTree = "<group>"; };
+		252EE8A6275AA7EE00F6454B /* 7741638559531_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7741638559531_.pic.jpg; sourceTree = "<group>"; };
+		252EE8A8275AA83D00F6454B /* 7641638559440_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7641638559440_.pic.jpg; sourceTree = "<group>"; };
+		252EE8AA275AB72D00F6454B /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		252EE8AC275AB74600F6454B /* usericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usericon.png; sourceTree = "<group>"; };
+		252EE8B0275ACA7F00F6454B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/lost_and_found-main-7/frontend/Lost and Found/Assets.xcassets"; sourceTree = "<group>"; };
+		252EE8CB275B36D100F6454B /* trash_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_full.png; sourceTree = "<group>"; };
+		252EE8CD275B373D00F6454B /* Image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image-1.jpg"; path = "Image/Image-1.jpg"; sourceTree = SOURCE_ROOT; };
+		252EE8CF275B374800F6454B /* logo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo1.jpg; path = Image/logo1.jpg; sourceTree = SOURCE_ROOT; };
+		252EE8D1275B375000F6454B /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = Image/login.png; sourceTree = SOURCE_ROOT; };
+		255087292755A05C0088E291 /* LostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostViewController.swift; sourceTree = "<group>"; };
+		2550872B2755A2240088E291 /* LostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostTableViewCell.swift; sourceTree = "<group>"; };
+		2550872D2755A3320088E291 /* LostDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostDescViewController.swift; sourceTree = "<group>"; };
+		2550873B2755CDB10088E291 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2550873D2755F8A90088E291 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		2550873F2755F9B00088E291 /* User1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User1.swift; sourceTree = "<group>"; };
+		255087432756CAC40088E291 /* PostFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFoundViewController.swift; sourceTree = "<group>"; };
+		255087452756EE0A0088E291 /* TheMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMainViewController.swift; sourceTree = "<group>"; };
+		255087472756F4640088E291 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		2550874B2757DF580088E291 /* MenuTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabView.swift; sourceTree = "<group>"; };
+		2550874D2757E0130088E291 /* MenuTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabCell.swift; sourceTree = "<group>"; };
+		25508755275819CB0088E291 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		25508759275825290088E291 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		2550875B275828570088E291 /* UserItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemCell.swift; sourceTree = "<group>"; };
+		2550876427588D930088E291 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2550876727589D6D0088E291 /* try1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try1.png; sourceTree = "<group>"; };
+		258D916F2748D1D200764419 /* Lost and Found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lost and Found.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		258D91722748D1D200764419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		258D91742748D1D200764419 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		258D91762748D1D200764419 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		258D91792748D1D200764419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		258D917E2748D1D300764419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		258D91802748D1D300764419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258D91882748E00400764419 /* FoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundViewController.swift; sourceTree = "<group>"; };
+		258D918A274A2BA300764419 /* FoundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundTableViewCell.swift; sourceTree = "<group>"; };
+		258D918C274A2BC500764419 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		258D918E274A2BF400764419 /* PostLostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLostViewController.swift; sourceTree = "<group>"; };
+		258D9190274A3A8200764419 /* FoundDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundDescViewController.swift; sourceTree = "<group>"; };
+		258D9194274B1C7300764419 /* font */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = font; sourceTree = SOURCE_ROOT; };
+		258D9198274B37FA00764419 /* FoundHalfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundHalfView.swift; sourceTree = "<group>"; };
+		3D9F26B5B84F618BBEBC546D /* Pods_Lost_and_Found.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lost_and_Found.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE60F4AA0106DD9A123D75F4 /* Pods-Lost and Found.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost and Found.debug.xcconfig"; path = "Target Support Files/Pods-Lost and Found/Pods-Lost and Found.debug.xcconfig"; sourceTree = "<group>"; };
+		F61E9A0969426C09F881991B /* Pods-Lost and Found.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost and Found.release.xcconfig"; path = "Target Support Files/Pods-Lost and Found/Pods-Lost and Found.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		258D916C2748D1D200764419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6408F383F01AC0EE52FBA /* Pods_Lost_and_Found.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2550875D275828690088E291 /* UserProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				255087472756F4640088E291 /* UserViewController.swift */,
+				2550874B2757DF580088E291 /* MenuTabView.swift */,
+				2550874D2757E0130088E291 /* MenuTabCell.swift */,
+				25508759275825290088E291 /* ContentController.swift */,
+				2550875B275828570088E291 /* UserItemCell.swift */,
+				25508755275819CB0088E291 /* PageVC.swift */,
+			);
+			path = UserProfilePage;
+			sourceTree = "<group>";
+		};
+		2550876627589D410088E291 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2550876727589D6D0088E291 /* try1.png */,
+				252EE8AA275AB72D00F6454B /* backbutton.png */,
+				252EE8A8275AA83D00F6454B /* 7641638559440_.pic.jpg */,
+				252EE8AC275AB74600F6454B /* usericon.png */,
+				252EE8CB275B36D100F6454B /* trash_full.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		258D91662748D1D200764419 = {
+			isa = PBXGroup;
+			children = (
+				2550876627589D410088E291 /* Image */,
+				258D91712748D1D200764419 /* Lost and Found */,
+				258D91702748D1D200764419 /* Products */,
+				428A0CA1495D845E8037E542 /* Pods */,
+				8AC2BC7301913BCCD626A4EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		258D91702748D1D200764419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				258D916F2748D1D200764419 /* Lost and Found.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		258D91712748D1D200764419 /* Lost and Found */ = {
+			isa = PBXGroup;
+			children = (
+				258D91722748D1D200764419 /* AppDelegate.swift */,
+				258D91742748D1D200764419 /* SceneDelegate.swift */,
+				255087452756EE0A0088E291 /* TheMainViewController.swift */,
+				2550876427588D930088E291 /* QuestionViewController.swift */,
+				258D91762748D1D200764419 /* MainViewController.swift */,
+				2550873D2755F8A90088E291 /* RegisterController.swift */,
+				258D918E274A2BF400764419 /* PostLostViewController.swift */,
+				258D91882748E00400764419 /* FoundViewController.swift */,
+				258D918A274A2BA300764419 /* FoundTableViewCell.swift */,
+				258D9198274B37FA00764419 /* FoundHalfView.swift */,
+				258D9190274A3A8200764419 /* FoundDescViewController.swift */,
+				255087292755A05C0088E291 /* LostViewController.swift */,
+				255087432756CAC40088E291 /* PostFoundViewController.swift */,
+				2550872B2755A2240088E291 /* LostTableViewCell.swift */,
+				2550872D2755A3320088E291 /* LostDescViewController.swift */,
+				2550873F2755F9B00088E291 /* User1.swift */,
+				258D918C274A2BC500764419 /* Item.swift */,
+				2550873B2755CDB10088E291 /* NetworkManager.swift */,
+				2550875D275828690088E291 /* UserProfilePage */,
+				258D91782748D1D200764419 /* Main.storyboard */,
+				252EE8B0275ACA7F00F6454B /* Assets.xcassets */,
+				252EE8CD275B373D00F6454B /* Image-1.jpg */,
+				252EE8CF275B374800F6454B /* logo1.jpg */,
+				252EE8D1275B375000F6454B /* login.png */,
+				252EE8A6275AA7EE00F6454B /* 7741638559531_.pic.jpg */,
+				252EE8A4275AA2AA00F6454B /* Image-2.jpg */,
+				258D917D2748D1D300764419 /* LaunchScreen.storyboard */,
+				258D91802748D1D300764419 /* Info.plist */,
+				258D9194274B1C7300764419 /* font */,
+			);
+			path = "Lost and Found";
+			sourceTree = "<group>";
+		};
+		428A0CA1495D845E8037E542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE60F4AA0106DD9A123D75F4 /* Pods-Lost and Found.debug.xcconfig */,
+				F61E9A0969426C09F881991B /* Pods-Lost and Found.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AC2BC7301913BCCD626A4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F26B5B84F618BBEBC546D /* Pods_Lost_and_Found.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		258D916E2748D1D200764419 /* Lost and Found */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258D91832748D1D300764419 /* Build configuration list for PBXNativeTarget "Lost and Found" */;
+			buildPhases = (
+				F91FD397D6B6E5AC51983812 /* [CP] Check Pods Manifest.lock */,
+				258D916B2748D1D200764419 /* Sources */,
+				258D916C2748D1D200764419 /* Frameworks */,
+				258D916D2748D1D200764419 /* Resources */,
+				39E540E915CB6AA301A9B68C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lost and Found";
+			productName = "Lost and Found";
+			productReference = 258D916F2748D1D200764419 /* Lost and Found.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		258D91672748D1D200764419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					258D916E2748D1D200764419 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 258D916A2748D1D200764419 /* Build configuration list for PBXProject "Lost and Found" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 258D91662748D1D200764419;
+			productRefGroup = 258D91702748D1D200764419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				258D916E2748D1D200764419 /* Lost and Found */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		258D916D2748D1D200764419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D917F2748D1D300764419 /* LaunchScreen.storyboard in Resources */,
+				252EE8D2275B375000F6454B /* login.png in Resources */,
+				258D917A2748D1D200764419 /* Main.storyboard in Resources */,
+				252EE8CE275B373D00F6454B /* Image-1.jpg in Resources */,
+				2550876827589D6D0088E291 /* try1.png in Resources */,
+				252EE8A9275AA83D00F6454B /* 7641638559440_.pic.jpg in Resources */,
+				252EE8AB275AB72D00F6454B /* backbutton.png in Resources */,
+				252EE8D0275B374800F6454B /* logo1.jpg in Resources */,
+				252EE8A5275AA2AA00F6454B /* Image-2.jpg in Resources */,
+				252EE8AD275AB74600F6454B /* usericon.png in Resources */,
+				252EE8A7275AA7EE00F6454B /* 7741638559531_.pic.jpg in Resources */,
+				252EE8CC275B36D100F6454B /* trash_full.png in Resources */,
+				252EE8B1275ACA7F00F6454B /* Assets.xcassets in Resources */,
+				258D9195274B1C7300764419 /* font in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39E540E915CB6AA301A9B68C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lost and Found/Pods-Lost and Found-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lost and Found/Pods-Lost and Found-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lost and Found/Pods-Lost and Found-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91FD397D6B6E5AC51983812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lost and Found-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		258D916B2748D1D200764419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258D91892748E00400764419 /* FoundViewController.swift in Sources */,
+				2550875A275825290088E291 /* ContentController.swift in Sources */,
+				25508756275819CB0088E291 /* PageVC.swift in Sources */,
+				255087482756F4640088E291 /* UserViewController.swift in Sources */,
+				258D918B274A2BA300764419 /* FoundTableViewCell.swift in Sources */,
+				258D91772748D1D200764419 /* MainViewController.swift in Sources */,
+				258D91732748D1D200764419 /* AppDelegate.swift in Sources */,
+				2550874C2757DF580088E291 /* MenuTabView.swift in Sources */,
+				258D918D274A2BC500764419 /* Item.swift in Sources */,
+				258D9199274B37FA00764419 /* FoundHalfView.swift in Sources */,
+				258D918F274A2BF400764419 /* PostLostViewController.swift in Sources */,
+				2550876527588D930088E291 /* QuestionViewController.swift in Sources */,
+				255087402755F9B00088E291 /* User1.swift in Sources */,
+				2550874E2757E0130088E291 /* MenuTabCell.swift in Sources */,
+				2550875C275828570088E291 /* UserItemCell.swift in Sources */,
+				2550872C2755A2240088E291 /* LostTableViewCell.swift in Sources */,
+				2550872E2755A3320088E291 /* LostDescViewController.swift in Sources */,
+				255087442756CAC40088E291 /* PostFoundViewController.swift in Sources */,
+				2550872A2755A05C0088E291 /* LostViewController.swift in Sources */,
+				2550873E2755F8A90088E291 /* RegisterController.swift in Sources */,
+				255087462756EE0A0088E291 /* TheMainViewController.swift in Sources */,
+				2550873C2755CDB10088E291 /* NetworkManager.swift in Sources */,
+				258D9191274A3A8200764419 /* FoundDescViewController.swift in Sources */,
+				258D91752748D1D200764419 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		258D91782748D1D200764419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				258D91792748D1D200764419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		258D917D2748D1D300764419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				258D917E2748D1D300764419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		258D91812748D1D300764419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		258D91822748D1D300764419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		258D91842748D1D300764419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE60F4AA0106DD9A123D75F4 /* Pods-Lost and Found.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UGGW479D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lost and Found/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS1998.Lost-and-Found";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		258D91852748D1D300764419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E9A0969426C09F881991B /* Pods-Lost and Found.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9UGGW479D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lost and Found/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS1998.Lost-and-Found";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		258D916A2748D1D200764419 /* Build configuration list for PBXProject "Lost and Found" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D91812748D1D300764419 /* Debug */,
+				258D91822748D1D300764419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258D91832748D1D300764419 /* Build configuration list for PBXNativeTarget "Lost and Found" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258D91842748D1D300764419 /* Debug */,
+				258D91852748D1D300764419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 258D91672748D1D200764419 /* Project object */;
+}
