@@ -13,7 +13,7 @@ This project contains a SQL database with three tables: user, lost, and found. T
 ## API Documentation
 ### Failures
 Failures responses are ALL in this form: 
-```python
+```
 {
     "error": true
 }
@@ -24,7 +24,6 @@ They may have different HTTP status codes, here are their general meanings:
 - 404 indicates that the target is not found.
 - 400 means the request format is compromised.
   
-
 For post methods, the field time should be in the format of strings.
 ### Authentication for User-specific Endpoints
 These endpoint involve operations on a user's data:
