@@ -6,7 +6,7 @@ A lost & found iOS app built during Cornell Appdev's Hack Challenge FA21.
 - [Vivian Fan](https://github.com/Vivian0913): iOS frontend developer
 - [Li Fengyu](https://github.com/fengyuli2002): backend developer
 ## Demo Video
-[Click me](https://www.youtube.com/watch?v=2kXP2uc3fw8) for a clearer version of this video!
+[Click me](https://youtu.be/GPBJBDH2Tuw) to see the demo!
 ## The Database
 This project contains a SQL database with three tables: user, lost, and found. Table "user" has one-to-many relationships with "lost" and "found".
 ## API Documentation
